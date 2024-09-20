@@ -1,0 +1,28 @@
+body{
+	background-color: black;
+}
+
+.navBar{
+	z-index: 10;
+	position: sticky;
+	top: 0px;
+	background-color: black;
+}
+
+.primary-background{
+	background-color: #00091c;
+}
+
+.anim-drop{
+	animation-name: drop;
+  	animation-duration: 2s;
+}
+
+@keyframes drop{
+	from {
+		transform: translate(0vh, -30vh);
+	}
+  	to {
+  		transform: translate(0vh, 0vh);
+  	}
+}
